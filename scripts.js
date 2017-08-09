@@ -1,9 +1,9 @@
-var button = document.getElementsByClassName('button');
-var button__length = button.length;
-console.log(button__length);
-button.innerText = 'Hello!'
+var buttons = document.getElementsByClassName('button');
+var buttons__Length = buttons.length;
+console.log(buttons__Length);
+buttons.innerHTML = 'Hello!'
 
-
-for (var i = 0; i < button__length; i++) {
-	alert(button.innerText);
+for (var i = 0; i < buttons__Length; i++) {
+	alert(buttons.innerHTML);
+	console.log(buttons.innerHTML);
 }
